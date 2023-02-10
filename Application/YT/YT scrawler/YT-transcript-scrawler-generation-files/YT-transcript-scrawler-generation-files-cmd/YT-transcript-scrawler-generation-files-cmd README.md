@@ -8,6 +8,7 @@ There are some preprations to do before using this file.
 ### 1) install Python modules (if neccessary) and import them.
 
 #### For third-party modules
+
 Here, I will use these third-party modules. 
 
 Please install them before executing this file.
@@ -20,7 +21,7 @@ Please install them before executing this file.
 
 4. scrapetube (To scrawl the data from YT via the ID of specified YT channel)
 
-To install it, you can use the cmd in some kinds Terminal (such as anaconda Terminal)
+To install it, you can use the cmd in some kinds Terminal (such as anaconda Terminal).
   
   pip install {<parameter>} <package-to-install> {<parameter>}
 
