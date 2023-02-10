@@ -230,8 +230,109 @@ I should type
 instead 
   
   self.fontList2
-  
-  
-  
+    
+For convenience, I defined all keys which ends with an assignment symbol (i.e. =)
 
+Although, direct access of most attribute has same results of get the value from the specified key in the dictionary self.__dict__(),
 
+I have tested that for few attributes (such as self.videos, self.video_url_list) will NOT have same results by direct access and access from the dictionary.
+
+since the types are different.
+
+For example, type of self.videos and type of self.__dict__()['self.videos='] are different.
+
+DON'T ask me why. I don't know. It amazed me.
+
+## Functionality
+
+"self.transcript_languages=":self.transcript_languages
+            
+            the source language of transcript of the video.
+            
+"self.base_channel_url=":self.base_channel_url
+            
+            The basic part of the YT url. I observed that for every YT channel has the self.base_channel_url
+            
+            self.base_channel_url="https://www.youtube.com/channel/"
+            
+            The url
+            
+            "https://www.youtube.com/channel/" + <channel-ID>
+            
+            can find specific YT channel.
+           
+"self.tar_channel_url=":self.tar_channel_url
+            
+            The desried target url we want to fetch.
+            
+"self.wantToOpen=":self.wantToOpen
+                       
+                       Set 1 to open the webbrowser of the YT channel.
+                       
+                       Set 0 to NOT open.
+                       
+"self.document_name=":self.document_name
+            
+            The document name you specified.
+            
+"self.document_ext=":self.document_ext
+            
+            A list of files extensions which determines that want kind of files it will generate.
+            
+"self.naming_method=":self.naming_method
+    
+            The naming method of file.
+            
+"self.tar_languanges=":self.tar_languanges
+
+            A list of desired languages, the transcript are translated to respectively.            
+            
+            For example, if I set it to ['en','ja'].
+            
+            Then first record are translated into english then japanese respectively.
+            
+            And so second record. And so on.
+           
+"self.lines=":self.lines
+ 
+            The maximum number of records it fetches.
+            
+"self.headerList=":self.headerList
+            
+            A list which indicates the information about the header for each file.
+            
+ "self.footerList=":self.footerList
+ 
+            A list which indicates the information about the footer for each file.
+ 
+ "self.fontList1=":self.fontList1
+ 
+             Part 1. A list which indicates the information about text font for each file.
+             
+             It stores the status of the font size of text, the font body of text, the color of text, and the background color of text which highlights the text.
+            
+ "self.fontList2=":self.fontList2
+ 
+            Part 1. A list which indicates the information about text font for each file.
+            
+            It stores the status of the font bold of text, the font underline of text, the font italic of text, and the font strike of the text.
+            
+ "self.base_watch_video_url=":self.base_watch_video_url
+ 
+            A basic part of an url when watching YT video. All YT videos must start with 'https://www.youtube.com/watch?v='.
+            
+            self.base_watch_video_url = 'https://www.youtube.com/watch?v='
+                       
+ "self.base_channel_url=":self.base_channel_url
+ 
+            The url which indicates the YT channel ID.
+            
+ "self.videos=":self.videos
+            
+            Information about the YT channel given the specifiied YT channel ID.
+            
+  "self.video_url_list=":self.video_url_list
+  
+            A list of url which indicates all YT videos of YT channel ID.
+            
+        
