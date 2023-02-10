@@ -96,14 +96,14 @@ Here, I will use my-developed module (The .py file with is written by myself)
 
     from docx import section
 
-from docx.enum.section import WD_SECTION
+    from docx.enum.section import WD_SECTION
 
-from youtube_transcript_api import YouTubeTranscriptApi
+    from youtube_transcript_api import YouTubeTranscriptApi
 
-from googletrans import Translator
+    from googletrans import Translator
 
-import scrapetube
+    import scrapetube
 
-import webbrowser
+    import webbrowser
 
-import ORDER_class
+    import ORDER_class
