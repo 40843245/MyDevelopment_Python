@@ -23,7 +23,7 @@ Please install them before executing this file.
 
 To install it, you can use the cmd in some kinds Terminal (such as anaconda Terminal). Use the pip cmd.
   
-  pip install {<parameter>} <package-to-install> {<parameter>}
+    pip install {<parameter>} <package-to-install> {<parameter>}
 
 where 
   
