@@ -5,12 +5,20 @@ For convenience, I call YT-transcript-scrawler-generation-files-cmd-code.py as t
 There are some preprations to do before using this file.
 
 ### 1) install Python modules (if neccessary) and import them.
+
+#### For third-party modules
 Here, I will use these third-party modules. 
 Please install them before executing this file.
 1.python-docx (For, write data into files with these extensions .docx .docx .html .pptx etc then auto-generate them)
 2.youtube_transcript_api (To scrawl the transcript from YT via the specified YT link)
 3.googletrans (It translates the language by google translator, more concisely to say, it connects to google translator server and translates)
 4. scrapetube (To scrawl the data from YT via the ID of specified YT channel)
+
+To install it, you can use the cmd in some kinds Terminal (such as anaconda Terminal)
+  pip install [<parameter>] <package-to-install>
+  
+  
+Before installing it, check the requirements and visit the documents.
 
 Here, I will use these built-in modules. 
 1. re
