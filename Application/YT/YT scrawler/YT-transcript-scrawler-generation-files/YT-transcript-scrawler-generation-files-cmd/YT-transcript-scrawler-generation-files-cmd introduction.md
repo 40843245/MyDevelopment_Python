@@ -173,6 +173,65 @@ In YT-transcript-scrawler-generation-files-cmd-code1.py
 
   Method to print the information of the parameter o.
 
-# Attribute
+# Attributes
+
+## Content
+
+  dic={
+  
+            "self.transcript_languages=":self.transcript_languages
+            
+            ,"self.base_channel_url=":self.base_channel_url
+            
+            ,"self.tar_channel_url=":self.tar_channel_url
+            
+            ,"self.wantToOpen=":self.wantToOpen
+            
+            ,"self.document_name=":self.document_name
+            
+            ,"self.document_ext=":self.document_ext
+            
+            ,"self.naming_method=":self.naming_method
+            
+            ,"self.tar_languanges=":self.tar_languanges
+            
+            ,"self.lines=":self.lines
+            
+            ,"self.headerList=":self.headerList
+            
+            ,"self.footerList=":self.footerList
+            
+            ,"self.fontList1=":self.fontList1
+            
+            ,"self.fontList2=":self.fontList2
+            
+            ,"self.base_watch_video_url=":self.base_watch_video_url
+            
+            ,"self.base_channel_url=":self.base_channel_url
+            
+            ,"self.videos=":self.videos
+            
+            ,"self.video_url_list=":self.video_url_list
+            
+        }
+        
+## Intro
+
+NOTE that I will get the value of an attribute by the key of the dictionary returned from __dict__() method.
+
+To avoid exceptions at runtime and unexpected results, I will NOT get the value of an attribute by directly access of the class.
+
+For example, if I want to get the value of fontList2. 
+
+I should type
+
+  self.__dict__()["self.fontList2="] 
+
+instead 
+  
+  self.fontList2
+  
+  
+  
 
 
