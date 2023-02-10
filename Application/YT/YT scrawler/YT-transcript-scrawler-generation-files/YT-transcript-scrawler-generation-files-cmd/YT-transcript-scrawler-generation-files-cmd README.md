@@ -21,7 +21,7 @@ Please install them before executing this file.
 
 4. scrapetube (To scrawl the data from YT via the ID of specified YT channel)
 
-To install it, you can use the cmd in some kinds Terminal (such as anaconda Terminal).
+To install it, you can use the cmd in some kinds Terminal (such as anaconda Terminal). Use the pip cmd.
   
   pip install {<parameter>} <package-to-install> {<parameter>}
 
