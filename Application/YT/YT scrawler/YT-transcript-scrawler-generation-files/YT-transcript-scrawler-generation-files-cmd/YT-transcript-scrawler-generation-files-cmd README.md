@@ -64,37 +64,37 @@ Here, I will use my-developed module (The .py file with is written by myself)
     
     from __future__ import absolute_import
 
-from lxml import etree
+    from lxml import etree
 
-import re
+    import re
 
-import docx
+    import docx
 
-from docx.compat import Unicode
+    from docx.compat import Unicode
     
-from docx.oxml import OxmlElement
+    from docx.oxml import OxmlElement
     
-from docx.oxml.exceptions import InvalidXmlError
+    from docx.oxml.exceptions import InvalidXmlError
     
-from docx.oxml.ns import NamespacePrefixedTag, nsmap, qn
+    from docx.oxml.ns import NamespacePrefixedTag, nsmap, qn
     
-from docx.shared import lazyproperty
+    from docx.shared import lazyproperty
 
-from docx.oxml import ns
+    from docx.oxml import ns
 
-import sys
+    import sys
 
-import json
+    import json
 
-import docx
+    import docx
 
-from docx import shared
+    from docx import shared
 
-from docx import Document
+    from docx import Document
 
-from docx.shared import Inches
+    from docx.shared import Inches
 
-from docx import section
+    from docx import section
 
 from docx.enum.section import WD_SECTION
 
