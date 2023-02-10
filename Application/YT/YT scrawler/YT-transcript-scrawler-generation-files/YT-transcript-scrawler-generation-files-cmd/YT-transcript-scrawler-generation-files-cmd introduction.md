@@ -117,23 +117,61 @@ In YT-transcript-scrawler-generation-files-cmd-code1.py
 
   Method to add headers and footers to Microsoft word.
   
-7) def GetChannel
+7) Auto_Add_Page_Number
+
+  Method to alignment the text of header and footer. Then insert the elements to headers and footer.
+  
+8) def GetChannel
 
   Method to fetch all data of the YT channel in the specified YT channel ID (string type). Then store it to an attribute.
   
-8) def GetAllVideoUrl_List
+9) def GetAllVideoUrl_List
 
   Method to get all links of all videos in the specified YT channel ID (string type). Then store it to an attribute.
   
-9) def YT_handler
+10) def YT_handler
 
   Method to handle all YT vidoes. This method will call the method YT_Video_Transcript.
   
-10) def YT_Video_Transcript
+11) def YT_Video_Transcript
 
   Method to fetch the transcipt of a given YT video link. Then write the result to a file.
   
+12) def TryOpenUrl(self,base_channel_url,tar_channel_url,wantToOpen=1):
+
+  Method to try to open url.
   
+  The default value of wantToOpen is 1.
+  
+  If the value of the parameter wantToOpen is 1, then the webbrowser will open the url.
+  
+  NOTE that url = base_channel_url + tar_channel_url
+  
+13) def Set_DefaultValue(self,tar,defaultValue):
+
+  Set the default value given by the parameter if tar is None, undefined or unassigned,.
+  
+  This method will check the tar is either None, undefined or unassigned. 
+  
+  If so, assign the defaultValue to tar.
+  
+  If NOT, nothing happens.
+  
+14) def Set_All_DefaultValues
+  
+  Set some attributes to default values. 
+  
+  I set some attributes to default values for the convenience of test.
+  
+  If you don't want to use the default values, you can uncomment the call.
+  
+15) def Print_Dict_ElemByElem
+
+  Method to print all elements of the result returned from __dict__().
+
+16)  def Print_Info(self,o,msg):
+
+  Method to print the information of the parameter o.
 
 # Attribute
 
