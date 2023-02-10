@@ -5,7 +5,20 @@ For convenience, I call YT-transcript-scrawler-generation-files-cmd-code.py as t
 
 There are some preprations to do before using this file.
 
-### 1) install Python modules (if neccessary) and import them.
+### 1) Check google translator can translate words.
+
+Link:
+https://translate.google.com/
+
+Since when using the googletrans module, the google server is connected.
+
+### 2) Turn on either Wifi or Hotspot of your device while running and check it is stable.
+
+If the connection is NOT stable or is disconnected, the an exception will be thrown at runtime.
+
+The googletrans requires connection while running since it uses google translators at runtime.
+
+### 3) install Python modules (if neccessary) and import them.
 
 #### For third-party modules
 
@@ -56,9 +69,9 @@ Here, I will use my-developed module (The .py file with is written by myself)
     1. ORDER_class (called ORDER_class.py)
 
     
-### 2) To save you time, you don't have to write codes to import them. Just make sure these statements are written at the top of the code, if NOT, copy and paste these statement at the top of the code. (After the end of section #### 3) )
+### 4) To save you time, you don't have to write codes to import them. Just make sure these statements are written at the top of the code, if NOT, copy and paste these statement at the top of the code. (After the end of section #### 3) )
     
-### 3) Make sure the location of my-developed .py files to ensure the module can be correctly found.
+### 5) Make sure the location of my-developed .py files to ensure the module can be correctly found.
 
 Here is the top of the codes.
     
@@ -123,3 +136,14 @@ Here is the top of the codes.
         ARBIRTARY="ARBIRTARY" #Specify the name
     
         RANDOM="RANDOM"
+    
+## When Testing,
+### 1) Don't translate too many lines at once with the module googletrans. Otherwise,the exception throws
+    
+I guess the reason is uses google translators and the google translators can NOT translate too many letters at once.
+    
+I still remembered that I copied lots of texts from a website and pasted it to the google translates, then it tells me that 
+    
+it can NOT translate at most 3900 word. (I forgot it is 3900 words).
+    
+
