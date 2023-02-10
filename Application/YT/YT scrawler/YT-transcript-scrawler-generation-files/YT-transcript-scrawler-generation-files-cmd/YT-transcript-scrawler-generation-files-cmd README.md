@@ -60,7 +60,7 @@ Here, I will use my-developed module (The .py file with is written by myself)
     
 ### 3) Make sure the location of my-developed .py files to ensure the module can be correctly found.
 
-    
+Here is the top of the codes.
     
     from __future__ import absolute_import
 
@@ -107,3 +107,19 @@ Here, I will use my-developed module (The .py file with is written by myself)
     import webbrowser
 
     import ORDER_class
+
+ Here is the code of ORDER_class.py (it only contains an enum class.)
+    
+    class ORDER():
+    
+        ASCENDING="ASCENDING"
+    
+        ASCENDING_FROM_1="ASCENDING_FROM_1"
+    
+        DESCENDING="DESCENDING" 
+    
+        DESCENDING_BRACKET_WHEN_NEED="DESCENDING_BRACKET_WHEN_NEED"
+    
+        ARBIRTARY="ARBIRTARY" #Specify the name
+    
+        RANDOM="RANDOM"
