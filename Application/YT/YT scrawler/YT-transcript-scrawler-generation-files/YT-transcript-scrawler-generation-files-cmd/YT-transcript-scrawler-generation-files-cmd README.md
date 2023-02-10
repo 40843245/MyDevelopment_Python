@@ -138,12 +138,62 @@ Here is the top of the codes.
         RANDOM="RANDOM"
     
 ## When Testing,
-### 1) Don't translate too many lines at once with the module googletrans. Otherwise,the exception throws
+### 1) Don't translate too many lines at once with the module googletrans. Otherwise,the exception throws. I remembered the exception is called HTTPSERVERERROR.
     
 I guess the reason is uses google translators and the google translators can NOT translate too many letters at once.
     
 I still remembered that I copied lots of texts from a website and pasted it to the google translates, then it tells me that 
     
 it can NOT translate at most 3900 word. (I forgot it is 3900 words).
+    
+## Tested data of the variable lines.
+
+The variable in this file named lines indicates the maximum number of records of transcript (for each videos) will be fetched (from top to down)
+    
+ For example, if I set the variable lines = 10.
+    
+ My code will fetch at most top 10 records of transcript for each video (even though there are 1000 records of transcript of the video).
+    
+I have tested that in my notebook in spyder, at runtime, there are NO any exceptions when I set the variable lines to 
+    
+    1 and 10
+ 
+ And there are exceptions when I set the variable lines to
+    
+    100 , 1000 , 10000 , 100000
+    
+  For error message, see the figure in the Github.
+    
+    
+  ## Ref to Python module
+    
+  I really appreciate these attributors developes these third-party modules.
+    
+  So that, I can easily understand and use. Also, it saves me lots of time. (Though, I spent lots of time and writes lots of lines of the code.)
+    
+  scrapetube
+    
+    https://pypi.org/project/scrapetube/
+    
+  youtube-transcript-api
+    
+    https://pypi.org/project/youtube-transcript-api/
+    
+  python-docx
+    
+    https://pypi.org/project/python-docx/
+    
+  ## Thought to attributor of python-docx.
+    
+  The python-docx module provides lots of functionality to help me to achieve my code.
+    
+   Although, the documentation does NOT offer many examples and outputs so that 
+    
+   I spent some time on finding the way how to use it (,especially how to set the font and color of the text.).
+    
+   I must really appreciate it.
+    
+   And I think the attributor is very expertised at Python.
+   
     
 
