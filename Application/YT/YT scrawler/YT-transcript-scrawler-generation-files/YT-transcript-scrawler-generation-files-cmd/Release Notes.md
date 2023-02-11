@@ -86,3 +86,18 @@ There are some difference between them.
         
         1)text color
         2)text background color
+
+## In version 3 (v3)
+### Release Date
+2023/02/11 21:00 p.m.
+### Issue
+#### Contents:
+1. Fix several bugs.
+2. Delete unnecessary outputs.
+#### Details:
+1. Fix several bugs.
+        
+        I fix some several bugs.
+        There is a bug in version 2.
+        The runtime error due to mismatched type.
+2. Delete unnecessary outputs.
