@@ -1,6 +1,10 @@
 # Release Notes
 ## In version 2 (v2)
 ### Release Date
+2023/02/10 morning.
+
+## In version 2 (v2)
+### Release Date
 2023/02/11 18:11 p.m.
 
 ### Difference
@@ -53,3 +57,28 @@ There are some difference between them.
         
         Also, I make the code looks more formal and seems to like the code is written by a big company.
 
+### Issues can NOT be solved.
+#### Contents
+1. HTTPRequestsError when there are many records are needed to be translated by googltrans.
+
+2. Unknown exceptions with given some invalid parameters.
+ 
+#### Details 
+1. HTTPRequestsError when there are many records are needed to be translated by googltrans.
+       
+       Since there are maximum requests between google servers, thus, this issue can NOT be solved at present.
+       
+2. Unknown exceptions with given some invalid parameters.
+        
+        Such as invalid font size, font family, document extension, document path, document name.
+  
+        I will NOT solve this issue. Especially to check the input of font family exists in word since it is troublesome to list all available fonts in word. 
+        
+        NOTE that I just check all types of input and some common invalid input for specified parameter.
+        
+        But I ensure that these invalid parameters will NOT cause unexpected results.
+        
+        When one of them are given, the exceptions occur at runtime. (It is I desired for.)
+        
+        1)text color
+        2)text background color
