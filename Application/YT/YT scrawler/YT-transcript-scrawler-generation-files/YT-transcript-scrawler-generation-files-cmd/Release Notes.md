@@ -12,4 +12,11 @@ There are some difference between them.
 4. Delete some NOT necessary outputs.
 5. Add comments to explain the code.
 #### Details
+1. I fix some bugs. 
+
+   There are many 
+3. I add some functions.
+4. I change the order of parameters in DOS cmd.
+5. Delete some NOT necessary outputs.
+6. Add comments to explain the code.
 
