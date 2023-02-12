@@ -32,7 +32,8 @@ The reason is you can easily copy and paste it into input field of GUI window an
 
 Since I use the ORDER class in ORDER_class.py (i.e. I call ORDER_class.ORDER class) and so is YT-transcript-scrawler-generation-files-cmd-code-v3.py
 
-one have to put the ORDER_class.py, YT-transcript-scrawler-generation-files-cmd-code-v3.py and this file in same directory.
+one have to put the ORDER_class.py, YT-transcript-scrawler-generation-files-cmd-code-v3.py and this file in same directory before running this code.
+
 
 
 
