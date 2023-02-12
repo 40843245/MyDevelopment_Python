@@ -5,13 +5,15 @@ We have to do some preparation before running the code.
 Since this code will execute other.py file with DOS cmd.
 1. Make sure that you can execute .py file in DOS cmd. Typing 
     
-  python <.py>
+       python <.py>
   
 For newer version.
 
-  python3 <.py>
+       python3 <.py>
   
-where
+where 
+        
+        <.py> indicates the .py file name, it can be either an absolute path or relative path.
 
 3. Download the code YT-transcript-scrawler-generation-files-cmd-code-v3.py and test it to check the code
 
