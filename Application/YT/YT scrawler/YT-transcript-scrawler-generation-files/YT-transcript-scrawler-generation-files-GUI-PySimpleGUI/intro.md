@@ -59,6 +59,20 @@ For 6th columns. It is about the setting of headers.
 
 Same settings as the footers.
 
+For 7th columns, it determines the font of the text in the generated-file.
+
+To set the value of font size, font family, font text color, and font text background color, click the button with text "Font".
+
+The checkbox with text "Bold?" refers the text in generated-file is bold or NOT. When it is set to True, it is bold.
+
+The checkbox with text "Underline?" refers the text in generated-file is underline or NOT. When it is set to True, it is underline.
+
+The checkbox with text "Italic?" refers the text in generated-file is italic or NOT. When it is set to True, it is italic.
+
+The checkbox with text "Strike?" refers the text in generated-file is strike or NOT. When it is set to True, it is strike.
+
+
+
 
 
 
