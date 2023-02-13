@@ -3,8 +3,8 @@
 ### Release Date:
 2023/02/13 17:40 p.m.
 
-### Fix
-NOTHING
+### Bug
+NOTHING. I found there are NO bugs.
 
 ### Future to do
 If I can finish it, I will post my new release. I want to add some functions in my new releases.
