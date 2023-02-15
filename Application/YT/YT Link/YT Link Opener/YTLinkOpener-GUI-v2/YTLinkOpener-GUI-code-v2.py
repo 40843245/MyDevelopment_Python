@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from YTChannelID_class import YTLinkOpener
+from YTLinkOpener_class import YTLinkOpener
 
 class MainWindow(YTLinkOpener):
     def __init__(self):
